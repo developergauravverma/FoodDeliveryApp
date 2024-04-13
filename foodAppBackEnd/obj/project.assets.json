@@ -1742,11 +1742,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GauravVerma\\Desktop\\ReactProject\\foodAppBackEnd\\foodAppBackEnd\\foodAppBackEnd.csproj",
+      "projectUniqueName": "D:\\New folder\\FoodDeliveryApp\\foodAppBackEnd\\foodAppBackEnd.csproj",
       "projectName": "foodAppBackEnd",
-      "projectPath": "C:\\Users\\GauravVerma\\Desktop\\ReactProject\\foodAppBackEnd\\foodAppBackEnd\\foodAppBackEnd.csproj",
+      "projectPath": "D:\\New folder\\FoodDeliveryApp\\foodAppBackEnd\\foodAppBackEnd.csproj",
       "packagesPath": "C:\\Users\\GauravVerma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GauravVerma\\Desktop\\ReactProject\\foodAppBackEnd\\foodAppBackEnd\\obj\\",
+      "outputPath": "D:\\New folder\\FoodDeliveryApp\\foodAppBackEnd\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -1768,11 +1768,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\GauravVerma\\Desktop\\ReactProject\\foodAppBackEnd\\BAL\\BAL.csproj": {
-              "projectPath": "C:\\Users\\GauravVerma\\Desktop\\ReactProject\\foodAppBackEnd\\BAL\\BAL.csproj"
+            "D:\\New folder\\FoodDeliveryApp\\BAL\\BAL.csproj": {
+              "projectPath": "D:\\New folder\\FoodDeliveryApp\\BAL\\BAL.csproj"
             },
-            "C:\\Users\\GauravVerma\\Desktop\\ReactProject\\foodAppBackEnd\\Models\\Models.csproj": {
-              "projectPath": "C:\\Users\\GauravVerma\\Desktop\\ReactProject\\foodAppBackEnd\\Models\\Models.csproj"
+            "D:\\New folder\\FoodDeliveryApp\\Models\\Models.csproj": {
+              "projectPath": "D:\\New folder\\FoodDeliveryApp\\Models\\Models.csproj"
             }
           }
         }

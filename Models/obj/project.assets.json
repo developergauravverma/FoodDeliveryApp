@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\GauravVerma\\Desktop\\ReactProject\\foodAppBackEnd\\Models\\Models.csproj",
+      "projectUniqueName": "D:\\New folder\\FoodDeliveryApp\\Models\\Models.csproj",
       "projectName": "Models",
-      "projectPath": "C:\\Users\\GauravVerma\\Desktop\\ReactProject\\foodAppBackEnd\\Models\\Models.csproj",
+      "projectPath": "D:\\New folder\\FoodDeliveryApp\\Models\\Models.csproj",
       "packagesPath": "C:\\Users\\GauravVerma\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\GauravVerma\\Desktop\\ReactProject\\foodAppBackEnd\\Models\\obj\\",
+      "outputPath": "D:\\New folder\\FoodDeliveryApp\\Models\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

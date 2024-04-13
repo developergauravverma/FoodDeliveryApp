@@ -15,3 +15,21 @@ C:\Users\GauravVerma\Desktop\ReactProject\foodAppBackEnd\BAL\obj\Debug\net6.0\BA
 C:\Users\GauravVerma\Desktop\ReactProject\foodAppBackEnd\BAL\obj\Debug\net6.0\refint\BAL.dll
 C:\Users\GauravVerma\Desktop\ReactProject\foodAppBackEnd\BAL\obj\Debug\net6.0\BAL.pdb
 C:\Users\GauravVerma\Desktop\ReactProject\foodAppBackEnd\BAL\obj\Debug\net6.0\ref\BAL.dll
+D:\New folder\FoodDeliveryApp\BAL\bin\Debug\net6.0\BAL.deps.json
+D:\New folder\FoodDeliveryApp\BAL\bin\Debug\net6.0\BAL.dll
+D:\New folder\FoodDeliveryApp\BAL\bin\Debug\net6.0\BAL.pdb
+D:\New folder\FoodDeliveryApp\BAL\bin\Debug\net6.0\DAL.dll
+D:\New folder\FoodDeliveryApp\BAL\bin\Debug\net6.0\Models.dll
+D:\New folder\FoodDeliveryApp\BAL\bin\Debug\net6.0\DAL.pdb
+D:\New folder\FoodDeliveryApp\BAL\bin\Debug\net6.0\Models.pdb
+D:\New folder\FoodDeliveryApp\BAL\obj\Debug\net6.0\BAL.csproj.AssemblyReference.cache
+D:\New folder\FoodDeliveryApp\BAL\obj\Debug\net6.0\BAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\New folder\FoodDeliveryApp\BAL\obj\Debug\net6.0\BAL.AssemblyInfoInputs.cache
+D:\New folder\FoodDeliveryApp\BAL\obj\Debug\net6.0\BAL.AssemblyInfo.cs
+D:\New folder\FoodDeliveryApp\BAL\obj\Debug\net6.0\BAL.csproj.CoreCompileInputs.cache
+D:\New folder\FoodDeliveryApp\BAL\obj\Debug\net6.0\BAL.sourcelink.json
+D:\New folder\FoodDeliveryApp\BAL\obj\Debug\net6.0\BAL.csproj.Up2Date
+D:\New folder\FoodDeliveryApp\BAL\obj\Debug\net6.0\BAL.dll
+D:\New folder\FoodDeliveryApp\BAL\obj\Debug\net6.0\refint\BAL.dll
+D:\New folder\FoodDeliveryApp\BAL\obj\Debug\net6.0\BAL.pdb
+D:\New folder\FoodDeliveryApp\BAL\obj\Debug\net6.0\ref\BAL.dll
