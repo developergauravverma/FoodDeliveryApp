@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "D3R3nhHGeLudtQBORDkXrWv5Uq3L3irxSWLvJzXMR7M=",
+  "Source": "foodAppBackEnd",
+  "BasePath": "_content/foodAppBackEnd",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
