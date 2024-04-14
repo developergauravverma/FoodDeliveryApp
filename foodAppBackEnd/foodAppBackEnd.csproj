@@ -17,7 +17,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="DatabseQuerys\Procedures\" />
     <Folder Include="DatabseQuerys\Tables\" />
   </ItemGroup>
 

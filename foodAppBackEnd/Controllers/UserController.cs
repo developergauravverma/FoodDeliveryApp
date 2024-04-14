@@ -1,4 +1,6 @@
 ﻿using BAL.IBAL;
+using foodAppBackEnd.GenerateJWTToken;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Models.ResponseModel;
 using Models.ViewModels;
@@ -10,9 +12,11 @@ namespace foodAppBackEnd.Controllers
     public class UserController : Controller
     {
         private IUserBAL _user;
-        public UserController(IUserBAL bAL)
+        private IConfiguration _configuration;
+        public UserController(IUserBAL bAL,IConfiguration configuration)
         {
             this._user = bAL;
+            this._configuration = configuration;
         }
         [HttpPost("UserRegister")]
         public async Task<IActionResult> post([FromBody] User user)
@@ -21,6 +25,7 @@ namespace foodAppBackEnd.Controllers
             try
             {
                 User u = new User();
+                if()
                 u = await _user.UserRegister(user);
                 if (u != null)
                 {
@@ -44,12 +49,31 @@ namespace foodAppBackEnd.Controllers
             return Ok(response);
         }
         [HttpPost("UserLogin")]
-        public IActionResult post([FromBody] string userName, string password)
+        public async Task<IActionResult> post([FromBody] LoginUser user)
         {
             Response r = new Response();
             try 
             {
-                
+                User u = await _user.UserLogin(user.email, user.password);
+                if(u != null && u.id != Guid.Empty)
+                {
+                    r.success = true;
+                    r.message = "User login successfully";
+                    r.objectResponse = u;
+                    tokenRequest request = new tokenRequest()
+                    {
+                        email = u.emailId,
+                        id = u.id.ToString(),
+                        Role = u.roleId
+                    };
+                    tokenGenerate tg = new tokenGenerate(_configuration);
+                    r.token = tg.generateToken(request);
+                }
+                else
+                {
+                    r.success = true;
+                    r.message = "user email and password is incorrect";
+                }
             }
             catch(Exception e)
             {
@@ -57,7 +81,7 @@ namespace foodAppBackEnd.Controllers
                 r.message = "Something Went wron";
                 r.objectResponse = e;
             }
-            return Ok();
+            return Ok(r);
         }
     }
 }
