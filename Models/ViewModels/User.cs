@@ -21,10 +21,4 @@ namespace Models.ViewModels
         public List<string> roleIdLst { get; set; } = new List<string>();
         public List<Role> UserRoles { get; set; } = new List<Role>();
     }
-    public class Role
-    {
-        public Guid id { get; set; } = new Guid();
-        public string RoleName { get; set; } = string.Empty;
-        public bool isActive { get; set; } = false;
-    }
 }

@@ -10,5 +10,6 @@ namespace BAL.IBAL
     public interface IUserBAL
     {
         Task<User> UserRegister(User user);
+        Task<User> UserLogin(string email, string password);
     }
 }

@@ -1,12 +1,120 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "D:\\New folder\\FoodDeliveryApp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{567332F3-DF12-414E-B204-2C10A9ED171D}|BAL\\BAL.csproj|d:\\new folder\\fooddeliveryapp\\bal\\bal\\userbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{567332F3-DF12-414E-B204-2C10A9ED171D}|BAL\\BAL.csproj|solutionrelative:bal\\bal\\userbal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA21203-1276-47D6-951B-3384967F80F1}|foodAppBackEnd\\foodAppBackEnd.csproj|d:\\new folder\\fooddeliveryapp\\foodappbackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA21203-1276-47D6-951B-3384967F80F1}|foodAppBackEnd\\foodAppBackEnd.csproj|solutionrelative:foodappbackend\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA21203-1276-47D6-951B-3384967F80F1}|foodAppBackEnd\\foodAppBackEnd.csproj|d:\\new folder\\fooddeliveryapp\\foodappbackend\\generatejwttoken\\tokengenerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA21203-1276-47D6-951B-3384967F80F1}|foodAppBackEnd\\foodAppBackEnd.csproj|solutionrelative:foodappbackend\\generatejwttoken\\tokengenerate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA21203-1276-47D6-951B-3384967F80F1}|foodAppBackEnd\\foodAppBackEnd.csproj|d:\\new folder\\fooddeliveryapp\\foodappbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA21203-1276-47D6-951B-3384967F80F1}|foodAppBackEnd\\foodAppBackEnd.csproj|solutionrelative:foodappbackend\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{029D0D6D-57F9-4B07-BA74-413AB626F576}|Models\\Models.csproj|d:\\new folder\\fooddeliveryapp\\models\\responsemodel\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{029D0D6D-57F9-4B07-BA74-413AB626F576}|Models\\Models.csproj|solutionrelative:models\\responsemodel\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{923F8AAD-3E01-4934-A0C4-132E27721CEB}|DAL\\DAL.csproj|d:\\new folder\\fooddeliveryapp\\dal\\dataprovider\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{923F8AAD-3E01-4934-A0C4-132E27721CEB}|DAL\\DAL.csproj|solutionrelative:dal\\dataprovider\\dataprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "tokenGenerate.cs",
+              "DocumentMoniker": "D:\\New folder\\FoodDeliveryApp\\foodAppBackEnd\\GenerateJWTToken\\tokenGenerate.cs",
+              "RelativeDocumentMoniker": "foodAppBackEnd\\GenerateJWTToken\\tokenGenerate.cs",
+              "ToolTip": "D:\\New folder\\FoodDeliveryApp\\foodAppBackEnd\\GenerateJWTToken\\tokenGenerate.cs",
+              "RelativeToolTip": "foodAppBackEnd\\GenerateJWTToken\\tokenGenerate.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAEBBwCQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T19:20:07.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Response.cs",
+              "DocumentMoniker": "D:\\New folder\\FoodDeliveryApp\\Models\\ResponseModel\\Response.cs",
+              "RelativeDocumentMoniker": "Models\\ResponseModel\\Response.cs",
+              "ToolTip": "D:\\New folder\\FoodDeliveryApp\\Models\\ResponseModel\\Response.cs",
+              "RelativeToolTip": "Models\\ResponseModel\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T18:59:37.359Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserBAL.cs",
+              "DocumentMoniker": "D:\\New folder\\FoodDeliveryApp\\BAL\\BAL\\UserBAL.cs",
+              "RelativeDocumentMoniker": "BAL\\BAL\\UserBAL.cs",
+              "ToolTip": "D:\\New folder\\FoodDeliveryApp\\BAL\\BAL\\UserBAL.cs",
+              "RelativeToolTip": "BAL\\BAL\\UserBAL.cs",
+              "ViewState": "AQIAAEoAAAAAAAAAAAAswFcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T17:47:44.507Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataProvider.cs",
+              "DocumentMoniker": "D:\\New folder\\FoodDeliveryApp\\DAL\\DataProvider\\DataProvider.cs",
+              "RelativeDocumentMoniker": "DAL\\DataProvider\\DataProvider.cs",
+              "ToolTip": "D:\\New folder\\FoodDeliveryApp\\DAL\\DataProvider\\DataProvider.cs",
+              "RelativeToolTip": "DAL\\DataProvider\\DataProvider.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAA6wDQAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T17:47:44.618Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\New folder\\FoodDeliveryApp\\foodAppBackEnd\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "foodAppBackEnd\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\New folder\\FoodDeliveryApp\\foodAppBackEnd\\Controllers\\UserController.cs",
+              "RelativeToolTip": "foodAppBackEnd\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAgwBwAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T17:54:58.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\New folder\\FoodDeliveryApp\\foodAppBackEnd\\Program.cs",
+              "RelativeDocumentMoniker": "foodAppBackEnd\\Program.cs",
+              "ToolTip": "D:\\New folder\\FoodDeliveryApp\\foodAppBackEnd\\Program.cs",
+              "RelativeToolTip": "foodAppBackEnd\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAEwEcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T17:22:07.649Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

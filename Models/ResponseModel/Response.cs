@@ -12,5 +12,6 @@ namespace Models.ResponseModel
         public string message { get; set; } = string.Empty;
         public List<object> listObject { get; set; }
         public object objectResponse { get; set; }
+        public string token { get; set; } = string.Empty;
     }
 }
