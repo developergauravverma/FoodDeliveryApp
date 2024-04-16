@@ -11,5 +11,6 @@ namespace BAL.IBAL
     {
         Task<User> UserRegister(User user);
         Task<User> UserLogin(string email, string password);
+        Task<bool> EmailValidation(string email);
     }
 }

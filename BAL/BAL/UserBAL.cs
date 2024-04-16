@@ -18,6 +18,24 @@ namespace BAL.BAL
         IDataProvider _provider;
         DataTable dt;
 
+        public async Task<bool> EmailValidation(string email)
+        {
+            bool isValidate = false;
+            dt = new DataTable();
+            _provider = new DataProvider();
+            Collection<SqlParameter> parameters = new Collection<SqlParameter>()
+            {
+                new SqlParameter("@email", email)
+            };
+            dt = await _provider.ConnectDataBaseWithParam(parameters, "sp_validateEmail");
+            if(dt != null && dt.Rows.Count > 0)
+            {
+                DataRow dr= dt.Rows[0];
+                isValidate = Convert.IsDBNull(dr["isValidate"]) ? default : Convert.ToBoolean(dr["isValidate"]);
+            }
+            return isValidate;
+        }
+
         public async Task<User> UserLogin(string email, string password)
         {
             dt = new DataTable();
