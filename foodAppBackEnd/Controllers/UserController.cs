@@ -24,19 +24,61 @@ namespace foodAppBackEnd.Controllers
             Response response = new Response();
             try
             {
+                bool isValidate = true;
                 User u = new User();
-                if()
-                u = await _user.UserRegister(user);
-                if (u != null)
-                {
-                    response.success = true;
-                    response.message = "User Save successfully";
-                    response.objectResponse = u;
-                }
-                else
+                if(string.IsNullOrEmpty(u.userName))
                 {
                     response.success = false;
-                    response.message = "something went wrong";
+                    response.message = "User Name is required";
+                    isValidate = false;
+                }
+                else if (string.IsNullOrEmpty(u.emailId))
+                {
+                    response.success = false;
+                    response.message = "Email is required";
+                    isValidate = false;
+                }
+                else if (string.IsNullOrEmpty(u.firstName))
+                {
+                    response.success = false;
+                    response.message = "first Name is required";
+                    isValidate = false;
+                }
+                else if (string.IsNullOrEmpty(u.password))
+                {
+                    response.success = false;
+                    response.message = "password is required";
+                    isValidate = false;
+                }
+                else if(string.IsNullOrEmpty(u.roleId))
+                {
+                    response.success = false;
+                    response.message = "role is required";
+                    isValidate = false;
+                }
+                if (isValidate)
+                {
+                    bool emailValidation = await _user.EmailValidation(u.emailId);
+                    if(emailValidation) 
+                    {
+                        response.success = false;
+                        response.message = $"this {u.emailId} is exists";
+                    }
+                    else
+                    {
+                        u = await _user.UserRegister(user);
+                        if (u != null)
+                        {
+                            response.success = true;
+                            response.message = "User Save successfully";
+                            response.objectResponse = u;
+                        }
+                        else
+                        {
+                            response.success = false;
+                            response.message = "something went wrong";
+                        }
+                    }
                 }
             }
             catch(Exception e)
@@ -54,25 +96,41 @@ namespace foodAppBackEnd.Controllers
             Response r = new Response();
             try 
             {
-                User u = await _user.UserLogin(user.email, user.password);
-                if(u != null && u.id != Guid.Empty)
+                bool isValidate = true;
+                if(string.IsNullOrEmpty(user.email))
                 {
-                    r.success = true;
-                    r.message = "User login successfully";
-                    r.objectResponse = u;
-                    tokenRequest request = new tokenRequest()
-                    {
-                        email = u.emailId,
-                        id = u.id.ToString(),
-                        Role = u.roleId
-                    };
-                    tokenGenerate tg = new tokenGenerate(_configuration);
-                    r.token = tg.generateToken(request);
+                    r.success = false;
+                    r.message = "Please enter Email";
+                    isValidate = false;
                 }
-                else
+                else if(string.IsNullOrEmpty(user.password))
                 {
-                    r.success = true;
-                    r.message = "user email and password is incorrect";
+                    r.success = false;
+                    r.message = "Please enter Password";
+                    isValidate = false;
+                }
+                if (isValidate)
+                {
+                    User u = await _user.UserLogin(user.email, user.password);
+                    if (u != null && u.id != Guid.Empty)
+                    {
+                        r.success = true;
+                        r.message = "User login successfully";
+                        r.objectResponse = u;
+                        tokenRequest request = new tokenRequest()
+                        {
+                            email = u.emailId,
+                            id = u.id.ToString(),
+                            Role = u.roleId
+                        };
+                        tokenGenerate tg = new tokenGenerate(_configuration);
+                        r.token = tg.generateToken(request);
+                    }
+                    else
+                    {
+                        r.success = true;
+                        r.message = "user email and password is incorrect";
+                    }
                 }
             }
             catch(Exception e)
